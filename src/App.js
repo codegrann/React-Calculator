@@ -7,7 +7,12 @@ function App() {
   return (
     <div className="bg-gray-700 h-screen">
       <Io />
-      <Button label="Click me!" />
+      <Button label="add" />
+      <Button label="subtract" />
+      <Button label="multiply" />
+      <Button label="divide" />
+      <Button label="reset input" />
+      <Button label="reset result" />
     </div>
   );
 }
